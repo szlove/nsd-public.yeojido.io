@@ -1,0 +1,12 @@
+[base.person1]
+  name = '1인'
+  price = 200000
+[base.person2]
+  name = '2인'
+  price = 300000
+[base.person3]
+  name = '3인'
+  price = 420000
+[base.person4]
+  name = '4인'
+  price = 560000
