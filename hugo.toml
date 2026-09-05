@@ -1,6 +1,6 @@
 baseURL = 'https://nsd-public.yeojido.io/'
 languageCode = 'ko-KR'
-title = '낙성대 퍼블릭 오르: OR'
+title = '낙성대 퍼블릭 오르, OR 오늘 영업정보'
 
 [params]
   isAdsEnabled = true
