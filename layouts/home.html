@@ -13,9 +13,10 @@
 		</div>
 		<div class="mt-8 w-full px-3 sm:px-5">
 			<div class="grid grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3 max-w-6xl mx-auto">
+				{{ $roomDescs := slice "네이비 월아트와 골드 진열장, 블루 체어 응접 공간" "통유리 전망과 골드 원형 테이블이 있는 라운지" "미러볼과 핑크 네온이 있는 파티 플로어" "VIP 사인과 골드 트림 소파가 있는 룸" }}
 				{{ range $n := seq 1 6 }}
 				<figure class="overflow-hidden rounded-sm" oncontextmenu="return false;" ondragstart="return false;">
-					<img src="{{ printf "/rooms/room-%02d.png" $n }}" alt="{{ $.Site.Params.Store.Location }} {{ $.Site.Params.Store.Name }} {{ $.Site.Params.Store.Category }} 룸 이미지 {{ $n }}" class="block w-full aspect-video object-cover">
+					<img src="{{ printf "/rooms/room-%02d.png" $n }}" alt="{{ $.Site.Params.Store.Location }} {{ $.Site.Params.Store.Name }} {{ $.Site.Params.Store.Category }} {{ index $roomDescs (mod (sub $n 1) (len $roomDescs)) }}" class="block w-full aspect-video object-cover">
 				</figure>
 				{{ end }}
 			</div>
