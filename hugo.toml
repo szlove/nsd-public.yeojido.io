@@ -7,19 +7,19 @@ title = '낙성대 퍼블릭 오르, OR 오늘 영업정보'
   adsTelegramId = "ggyuvely"
 
   description = '오르라는 이름은 낙성대에서 퍼블릭을 대표하는 자리 가운데 하나로 통합니다. 손님이 고정된 방이 아니라 넓은 홀을 오가며 응대를 받는 구조가 이 업종의 뼈대이고, 오르 역시 그 형식을 그대로 따릅니다. 방과 인원을 더 갖춘 하이퍼블릭과는 여기서 갈리며, 단출한 모임일수록 이 기본형만으로 충분한 경우가 많습니다.'
-  author = '두리'
+  author = '오르'
   datePublished = "2026-08-18T07:25:00+09:00"
   dateModified = "2026-08-18T07:25:00+09:00"
   [params.store]
-  tel = "010-8306-5747"
+  tel = "010-7456-5410"
   location = "낙성대"
   locationEn = "NSD"
   name = "오르"
   nameEn = "OR"
   category = "퍼블릭"
   categoryEn = "Public"
-  address = "서울 관악구"
-  googleMapSrc = "https://www.google.com/maps?q=서울+관악구&output=embed"
+  address = "서울 관악구 봉천동"
+  googleMapSrc = "https://www.google.com/maps?q=서울+관악구+봉천동&output=embed"
 	[params.store.social.kakaoTalk]
 	  id = ""
 	  link = ""
